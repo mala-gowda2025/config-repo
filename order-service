@@ -1,0 +1,10 @@
+spring:
+application:
+ name: order-service
+ database:
+ url: jdbc::mysql//localhost:3306/order-master
+ driverclassname: com.mysql.cj.jdbc.driver
+ jpa:
+ hibernate:
+ ddl-auto: null
+ show-sql: false
