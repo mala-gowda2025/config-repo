@@ -1,0 +1,10 @@
+spring:
+application:
+ name: customer-service
+ database:
+ url: jdbc::mysql//localhost:3306/customer-master
+ driverclassname: com.mysql.cj.jdbc.driver
+ jpa:
+ hibernate:
+ ddl-auto: null
+ show-sql: false
